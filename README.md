@@ -8,6 +8,6 @@ export default number_format
 ```
 ```
 # in webpack entry file
-import number_format from "./number_format"
+import number_format from "./number_format.js"
 global.number_format = number_format
 ```
